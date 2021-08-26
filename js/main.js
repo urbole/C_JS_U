@@ -80,4 +80,12 @@ const buttons = document.getElementsByTagName('button');
 console.log('🚀 ~ buttons', buttons[0]);
 
 const circles = document.getElementsByClassName('circle');
-console.log('🚀 ~ circles', circles[1]);
+console.log('🚀 ~ circles', circles);
+
+const hearts = document.querySelectorAll('.heart');
+console.log('🚀 ~ hearts', hearts);
+
+hearts.forEach((elem, i) => console.log('🚀 ~ elem', elem));
+
+const oneHeart = document.querySelector('.heart');
+console.log('🚀 ~ oneHeart', oneHeart);
