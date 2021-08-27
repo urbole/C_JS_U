@@ -73,19 +73,12 @@ const personalMovieDB = {
 // personalMovieDB.toggleVisibleMyDB();
 // personalMovieDB.showMyDB(personalMovieDB.hidden);
 
-const box = document.querySelector('#box');
-console.log('🚀 ~ box', box);
+const box = document.querySelector('#box'),
+  buttons = document.getElementsByTagName('button'),
+  circles = document.getElementsByClassName('circle'),
+  hearts = document.querySelectorAll('.heart'),
+  oneHeart = document.querySelector('.heart');
 
-const buttons = document.getElementsByTagName('button');
-console.log('🚀 ~ buttons', buttons[0]);
 
-const circles = document.getElementsByClassName('circle');
-console.log('🚀 ~ circles', circles);
-
-const hearts = document.querySelectorAll('.heart');
-console.log('🚀 ~ hearts', hearts);
-
-hearts.forEach((elem, i) => console.log('🚀 ~ elem', elem));
-
-const oneHeart = document.querySelector('.heart');
-console.log('🚀 ~ oneHeart', oneHeart);
+box.style.backgroundColor = 'blue';
+box.sty
