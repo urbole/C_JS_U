@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-color: #242424;
+  color: bisque;
+  text-align: center;
+  padding-top: 10%;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+.overlay {
+  margin: 10px auto;
+  padding: 10px;
+  width: 150px;
+  background-color: burlywood;
+}
+
+a {
+  color: bisque;
+}
