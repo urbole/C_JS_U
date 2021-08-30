@@ -38,21 +38,21 @@ btn.addEventListener('click', deleteElement, { once: true });
 // console.log(document.documentElement);
 // console.log(document.body.childNodes);
 
-//? console.log(document.body.firstChild);
+//? console.log(document.body.firstChild); устаревший метод
 // console.log(document.body.firstElementChild);
 
-//? console.log(document.body.lastChild);
+//? console.log(document.body.lastChild); устаревший метод
 // console.log(document.body.lastElementChild);
 
-//? console.log(document.querySelector('#current').parentNode);
+//? console.log(document.querySelector('#current').parentNode); устаревший метод
 // console.log(document.querySelector('#current').parentElement);
 
 // console.log(document.querySelector('#current').parentNode.parentNode);
 
-//? console.log(document.querySelector('[data-current="3"]').previousSibling.previousSibling);
+//? console.log(document.querySelector('[data-current="3"]').previousSibling.previousSibling); устаревший метод
 // console.log(document.querySelector('[data-current="3"]').previousElementSibling);
 
-//? console.log(document.querySelector('[data-current="3"]').nextSibling.nextSibling);
+//? console.log(document.querySelector('[data-current="3"]').nextSibling.nextSibling); устаревший метод
 // console.log(document.querySelector('[data-current="3"]').nextElementSibling);
 
 for (let node of document.body.childNodes) {
