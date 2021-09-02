@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  background-color: #242424;
+  color: bisque;
+  text-align: center;
+  padding-top: 10%;
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  background-color:white;
+  border-radius: 5px;
+}
+
