@@ -8,7 +8,7 @@
 
 // const ans = prompt('Введите ваше имя','');
 // const reg = /n/i;
-// // console.log(ans.search(reg)); //* search() возвращает индекс первого вхождения
+// console.log(ans.search(reg)); //* search() возвращает индекс первого вхождения
 // console.log(ans.match(reg)); //* возвращает масив ['n', index: 1, input: 'ann', groups: undefined]
 
 
